@@ -1,0 +1,16 @@
+button {
+    font-family: 'arial-roundedregular', sans-serif;
+    font-weight: 800;
+    width: 13rem;
+    padding: 1rem 2.5rem;
+    font-size: 2.5em;
+    margin: 0 1rem;
+    border-bottom: .6rem solid #ccc;
+    border-radius: .5rem;
+    position: relative;
+}
+
+button:active {
+    border-bottom: 0;
+    transform: translateY(.6rem)
+}

@@ -1,0 +1,121 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+  text-decoration: none;
+  border: none;
+  outline: none;
+  scroll-behavior: smooth;
+}
+
+html {
+  font-size: 62.5%;
+  text-align: center;
+}
+
+body {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "arial-roundedregular", sans-serif;
+}
+
+h1 {
+  color: white;
+}
+
+#timer__pomodoro-display {
+  font-size: 8.8rem;
+  margin-bottom: 3rem;
+  color: white;
+}
+
+.timer__pomodoro {
+  background: rgba(4, 140, 149, 0.73);
+  padding: 5rem;
+  border-radius: 1rem;
+}
+.timer__options-list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  list-style: none;
+  color: white;
+  font-size: 1.5rem;
+  margin-bottom: 2rem;
+}
+.timer__options-list--link {
+  text-decoration: none;
+  list-style: none;
+  color: white;
+  font-size: 2rem;
+  padding: 0.2rem 1.5rem;
+  border-radius: 0.5rem;
+}
+.timer__options-list--link:active {
+  border-bottom: 0;
+  transform: translateY(0.4rem);
+}
+.timer__options-list--link:not(:last-child) {
+  margin-right: 2rem;
+}
+.timer__container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: rgb(15, 152, 161);
+  height: 100vh;
+  width: 100vw;
+  transition: all 0.5s ease;
+}
+.timer__container.pomodoroBg {
+  background: rgba(4, 140, 149, 0.73);
+}
+.timer__container.breakBg {
+  background: #00A86B;
+}
+.timer__container.longBreakBg {
+  background: #C04000;
+}
+.timer__container.pomodoroBg .timer__pomodoro {
+  background: rgba(3, 124, 133, 0.45);
+}
+.timer__container.breakBg .timer__pomodoro {
+  background: rgba(0, 122, 78, 0.4784313725);
+}
+.timer__container.longBreakBg .timer__pomodoro {
+  background: rgba(255, 85, 0, 0.431372549);
+}
+.timer__container.pomodoroBg ul a:first-child {
+  background: rgba(0, 0, 0, 0.13);
+}
+.timer__container.breakBg ul a:nth-child(2) {
+  background: rgba(0, 0, 0, 0.13);
+}
+.timer__container.breakBg ul a:nth-child(2) {
+  background: rgba(0, 0, 0, 0.13);
+}
+.timer__container.longBreakBg ul a:last-child {
+  background: rgba(0, 0, 0, 0.13);
+}
+
+button {
+  font-family: "arial-roundedregular", sans-serif;
+  font-weight: 800;
+  width: 13rem;
+  padding: 1rem 2.5rem;
+  font-size: 2.5em;
+  margin: 0 1rem;
+  border-bottom: 0.6rem solid #ccc;
+  border-radius: 0.5rem;
+  position: relative;
+}
+
+button:active {
+  border-bottom: 0;
+  transform: translateY(0.6rem);
+}
