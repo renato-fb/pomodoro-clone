@@ -1,4 +1,4 @@
-# Pomodoro clone
+# 🕒 Pomodoro clone
 
 ## Sobre o projeto 
 
