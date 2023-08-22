@@ -8,7 +8,7 @@ Simple personal project replicating the functionalities of the pomodoro.io websi
 - To combine the HTML BEM structure alongside the SCSS pre-processor, with the intent of making the code as clean as possible. This involves studying its resources, such as nesting, CSS modularization, and the 7-1 architecture.
 - To practice ternary operations in pure JavaScript (since I've been using a lot of jQuery lately).
 - To familiarize myself with the native web notifications API of JavaScript.
-- To learn how to implement a sound effect triggered by a specific action
+- To learn how to implement a sound effect triggered by a specific action.
 
 ## Web layout
 ![Layout](https://github.com/renato-fb/assets/blob/main/pomodoro-clone/pomodoro-layout1.jpg)
